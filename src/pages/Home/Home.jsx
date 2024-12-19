@@ -688,7 +688,7 @@ const Home = () => {
                   </div>
                 )}
               </div>
-              <div className='row justify-between items-center'>
+              <div className='row justify-center items-center'>
                 <div className='row bg-white p-3'>
                   <div className={style.productCard + ' col-md-6'}>
                     <div className='row mb-2 p-2 group hover:transform hover:scale-105 transition-transform duration-700'>
@@ -1577,10 +1577,6 @@ const Home = () => {
         </section>
       </div>}
       {/* end contact-us */}
-
-      {/* start footer */}
-      
-      {/* end footer */}
     </div>
   )
 }
